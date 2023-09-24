@@ -269,7 +269,16 @@ button {
 }
 
 .navbar {
-    padding: 15px 50px;
+    
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	background-color: #007bff;
+}
+.navbar img {
+  width: 100px; /* Adjust to your logo width */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
 }
 
 .user_icon {
@@ -306,21 +315,22 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding: 90px 0px 100px 0px;
+    padding: px 0px 100px 0px;
 }
 
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-top: 80px;
+    padding: 20px;
 }
 
 .banner_taital {
     width: 100%;
-    font-size: 65px;
+    font-size: 45px;
     color: #252525;
     font-weight: 750;
 }
+
 
 .tasty_text {
     width: 100%;
@@ -339,9 +349,36 @@ button {
 }
 
 .btn_main {
-    width: 120%;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.btn_main_abt_call {
+    width: 90%;
     float: left;
-    padding-top: 5px;
+    padding-top: 3px;
+}
+.about_bt_us{
+	width: 110px;
+    float: left;
+	padding:2px;
+}
+.about_bt_us a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #d48272;
+    color: #fefefd;
+    text-align: center;
+    padding: 12px;
+	margin-left: 8px;
+    border-radius: 5px;
+}
+
+.about_bt_us a:hover {
+    color: #fefefd;
+    background-color: #4a4949;
 }
 
 .about_bt {
@@ -349,14 +386,15 @@ button {
     float: left;
 }
 
+
 .about_bt a {
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 17px;
     background-color: #d48272;
     color: #fefefd;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -366,8 +404,9 @@ button {
 }
 
 .callnow_bt {
-    width: 175px;
+    width: 110px;
     float: left;
+	padding:2px;
 }
 
 .callnow_bt a {
@@ -378,7 +417,7 @@ button {
     color: #fefefd;
     text-align: center;
     padding: 12px;
-    margin-left: 10px;
+	margin-left: 8px;
     border-radius: 5px;
 }
 
@@ -424,10 +463,20 @@ button {
 }
 
 .banner_img {
-    width: 100%;
-    float: left;
-    text-align: center;
+	
+    text-align: left;
 }
+.banner_img img {
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  height: auto;    /* Maintain the image's aspect ratio */
+  display: block;
+}
+
+.image-container {
+  padding: 0; /* Adjust this value to control the spacing within the container */
+  margin: 0; /* Adjust this value to control the spacing around the container */
+}
+
 
 
 /* banner section end */
@@ -583,14 +632,14 @@ button {
     top: 1450px;
 }
 .about_taital_box1 {
-    width: 500px;
+    width: auto;
     float: left;
     background-color: #ffffff;
     height: auto;
-    padding: 40px 20px 30px 20px;
-    box-shadow: 0px 0px 30px 0px;
+    padding: 4px 20px 15px 20px;
+    box-shadow: 10px 0px 30px 0px;
     position: absolute;
-    top: 1550px;
+    top: 1500px;
 }
 
 .image_iman {
