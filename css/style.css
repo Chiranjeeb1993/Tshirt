@@ -467,14 +467,15 @@ button {
     text-align: left;
 }
 .banner_img img {
-  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  max-width: 100px; /* Ensure the image doesn't overflow its container */
   height: auto;    /* Maintain the image's aspect ratio */
   display: block;
+  padding:1px;
 }
 
 .image-container {
-  padding: 0; /* Adjust this value to control the spacing within the container */
-  margin: 0; /* Adjust this value to control the spacing around the container */
+  padding: 47px; /* Adjust this value to control the spacing within the container */
+  margin: 10px; /* Adjust this value to control the spacing around the container */
 }
 
 
